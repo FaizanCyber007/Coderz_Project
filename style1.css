@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    /* width: 100%; */
+    box-sizing: border-box;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* background-color: grey; */
+}
+body
+{
+    background-color: rgb(19, 33, 62);
+}
+#navigator
+{
+    width: 100%;
+    background-color: rgb(41, 27, 198); 
+}
+#logo
+{
+    position: absolute;
+    width: 10vw;
+    margin-left: 3%;
+}
+.icon
+{
+    margin-right: 2vw;
+}
+header ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+header li
+{
+    margin: 1% 0%;
+    border-radius: 9px;
+    padding: 5px;   
+     margin-right: 2vw; 
+    font-size: 1.6vw;
+    font-family: 'Times New Roman';
+    /* background: linear-gradient(rgb(224, 34, 34) ,rgba(255, 255, 255, 0.214) , rgb(39, 39, 106));*/
+    
+    
+}
+header a
+{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+header li a:hover 
+{
+    background: linear-gradient( rgb(7, 52, 231),rgba(255, 255, 255, 0.214) , rgba(128, 41, 41, 0.179) );
+    /* color: rgb(16, 168, 188); */
+    /* background-color: rgb(195, 6, 6); */
+    
+}
+#back_img
+{
+    /* border: 2px solid green; */
+    display: flex;
+    background-image: url(image/abstract-dark-blue-futuristic-digital-grid-background.jpg);
+    background-position-y: center;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35vw;
+    
+}
+
+#back_img>h1
+{
+    /* border: 2px solid violet; */
+    width: 45%;
+    margin-left: 10%;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    background: linear-gradient( rgb(226, 211, 12),rgba(206, 71, 8, 0.705));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#box_container
+{
+    /* border: 6px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#box_container .box 
+{
+    border: 0.5vw solid rgb(15, 42, 177);
+    width: 28%;
+    margin: 2% 0%;
+    padding-bottom: 2%;
+    background: linear-gradient(rgb(0, 0, 0), rgb(45, 180, 243));
+    display: flex;
+    column-gap: 20vw;
+    box-sizing: border-box;
+    box-shadow: 9px 8px 9px 4px rgba(18, 77, 239, 0.821); 
+}
+#box_container .box:hover
+{
+    transform: scale(1.05);
+
+}
+
+
+#box_container .box:active
+{
+    box-shadow: 4px 4px 4px 4px rgba(11, 85, 189, 0.6) inset; 
+}
+
+#box_container a
+{
+    text-decoration: none;
+}
+
+#box_container .text
+{
+    /* border: 2px solid blue; */
+    font-size: 1vw;
+    width: 100%;
+    text-align: center;
+    color: black;
+    /* background: linear-gradient( rgb(226, 211, 12),rgb(198, 205, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.box .img
+{
+    height: 18vw;
+}
+#img1
+{
+    background-image: url(image/python\ symbol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#img2
+{
+    background-image: url(image/programming-background-collage\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#img3
+{
+    background-image: url(image/CSS\ Symbol.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#img4
+{
+    background-image: url(image/Javascript\ Symbol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left ;
+
+}
+#img5
+{
+    background-image: url(image/Java\ Symbol.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left ;
+
+}
+#img6
+{
+    background-image: url(image/C\ Symbol.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center ;
+}
+#img7
+{
+    background-image: url(image/CPP\ symbol.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+#img8
+{
+    background-image: url(image/PHP\ symbol.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+#img9
+{
+    background-image: url(image/Typescript.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+#img10
+{
+    background-image: url(image/SQL.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#img11
+{
+    background-image: url(image/SWIFT.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img12
+{
+    background-image: url(image/Ruby.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

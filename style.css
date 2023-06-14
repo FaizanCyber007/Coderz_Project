@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box ;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body
+{
+    background: linear-gradient(rgba(15, 90, 240, 0.905), rgb(38, 37, 37)) ;
+}
+
+#navigator
+{
+    width: 100%;
+    background-color: rgb(41, 27, 198); 
+}
+#logo
+{
+    position: absolute;
+    width: 10vw;
+    margin-left: 3%;
+}
+.icon
+{
+    margin-right: 2vw;
+}
+header ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+header li
+{
+    margin: 1% 0%;
+    border-radius: 9px;
+    padding: 5px;  
+    margin-right: 2vw; 
+    font-size: 1.6vw;
+    /* background: linear-gradient(rgb(224, 34, 34) ,rgba(255, 255, 255, 0.214) , rgb(39, 39, 106));*/
+    
+    
+}
+header a
+{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+header li a:hover 
+{
+    background: linear-gradient( rgb(7, 52, 231),rgba(255, 255, 255, 0.214) , rgba(128, 41, 41, 0.179) );
+    /* color: rgb(16, 168, 188); */
+    /* background-color: rgb(195, 6, 6); */
+    
+}
+#entrance
+{
+    background-image: url(Image/abstract-dark-blue-futuristic-digital-grid-background.jpg);
+    background-position-y: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 35vw;
+    size: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.ent_text
+{
+    /* font-family: "russo one"; */
+    /* border: 2px solid green; */
+    width: 40vw;
+    height: 12vw;
+    /* padding-right: 10px; */
+    margin-right: 5vw;
+    margin-top: 10vw;
+    margin-left: 10%;
+    color: rgba(255, 219, 88, 0.652);
+    /* display: inline; */
+    /* background: radial-gradient(rgb(29, 123, 205), rgb(0, 0, 128));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 5vw;
+}
+#box>.text
+{
+    /* border: 2px solid red; */
+    /* border: 2px solid red; */
+    color: aliceblue;
+    /* margin-top: -30px; */
+    width: 40vw;
+    /* height: 20vw; */
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 1.5vw;
+    
+}
+#box
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    width: 50vw;
+    height: 40vw;
+    /* background: linear-gradient( rgba(197, 207, 212, 0.63), rgba(40, 10, 124, 0.4)); */
+    margin-bottom: 2%;
+    
+}
+
+.scroll{
+    width: 100%;
+    height: auto;
+    /* background-color: #b3e1f7; */
+    display: flex;
+    justify-content: center;
+}
+
+#container2{
+    margin: 20px 50px;
+    /* background-color: red; */
+}
+#container2>h1
+{
+    color: aliceblue;
+
+}
+#container2>p{
+    width: 40%;
+}
+
+div#container2 img{
+    width: 30%;
+    size: 100%;
+}
+
+.mtx{
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    /* vertical-align: middle; */
+    align-items: center;
+    gap: 10vw;
+
+    flex-direction: row;
+}
+.mtx>p
+{
+    /* border: 2px solid blue; */
+    width: 30%;
+    font-size: 2vw;
+    height: 50%;
+    /* align-items: center; */
+    text-align: center;
+}
+
+#container3{
+    
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    height: 40vw;
+    font-size: 1.5vw;
+    padding: 2%;
+}
+#box_container
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#box_container .box 
+{
+    border: 0.5vw solid rgb(15, 42, 177);
+    width: 28%;
+    margin: 2% 0%;
+    padding-bottom: 2%;
+    background: linear-gradient(rgb(0, 0, 0), rgb(45, 180, 243));
+    display: flex;
+    column-gap: 20vw;
+    box-sizing: border-box;
+    box-shadow: 9px 8px 9px 4px rgba(18, 77, 239, 0.821); 
+}
+#box_container .box:hover
+{
+    transform: scale(1.05);
+
+}
+
+
+#box_container .box:active
+{
+    box-shadow: 4px 4px 4px 4px rgba(11, 85, 189, 0.6) inset; 
+}
+
+#box_container a
+{
+    text-decoration: none;
+}
+
+#box_container .text
+{
+    /* border: 2px solid blue; */
+    font-size: 1vw;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* background: linear-gradient( rgb(0, 0, 0),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.box .img
+{
+    height: 18vw;
+}
+#img2
+{
+    background-image: url(image/programming-background-collage\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#img3
+{
+    background-image: url(image/CSS\ Symbol.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#img4
+{
+    background-image: url(image/Javascript\ Symbol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left ;
+
+}
+#recom
+{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+footer{
+    font-size: 1vw;
+    padding: 70px 0px;
+    background-color: #24262b;
+    color: white;
+
+}
+.container{
+    max-width: 90vw;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.row{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly; */
+    /* gap: 2%; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.col{
+    /* text-align: center; */
+    /* border: 2px solid blue; */
+    width: 25%;
+    padding: 0px 15px;
+    /* margin: 0% 5%; */
+}
+
+footer ul{
+    list-style: none;
+
+}
+
+footer li{
+    padding: 4px 0px;
+}
+
+footer h4{
+    font-size: 2vw;
+    color: #ffff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    /* font-weight: 500; */
+    /* position: relative; */
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
