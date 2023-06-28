@@ -134,7 +134,7 @@ header li a:hover
 
 .member
 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     margin: 1%;
     align-items: center;
