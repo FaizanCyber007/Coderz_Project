@@ -71,19 +71,11 @@ header li a:hover
 }
 .ent_text
 {
-    /* font-family: "russo one"; */
-    /* border: 2px solid green; */
     width: 40vw;
     height: 12vw;
-    /* padding-right: 10px; */
-    margin-right: 5vw;
     margin-top: 5vw;
     margin-left: 10%;
     color: rgba(255, 219, 88, 0.652);
-    /* display: inline; */
-    /* background: radial-gradient(rgb(29, 123, 205), rgb(0, 0, 128));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     font-size: 5vw;
 }
 #box>.text
@@ -187,7 +179,7 @@ div#container2 img{
     display: flex;
     column-gap: 20vw;
     box-sizing: border-box;
-    box-shadow: 9px 8px 9px 4px rgba(18, 77, 239, 0.821); 
+    box-shadow: 1.5vw 1vw 1.3vw rgba(18, 77, 239, 0.821); 
 }
 #box_container .box:hover
 {
@@ -198,7 +190,7 @@ div#container2 img{
 
 #box_container .box:active
 {
-    box-shadow: 4px 4px 4px 4px rgba(11, 85, 189, 0.6) inset; 
+    box-shadow: 1.5vw 1vw 1.3vw rgba(11, 85, 189, 0.6) inset; 
 }
 
 #box_container a

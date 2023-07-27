@@ -115,7 +115,7 @@ header li a:hover
 
 #box_container .box:active
 {
-    box-shadow: 4px 4px 4px 4px rgba(11, 85, 189, 0.6) inset; 
+    box-shadow: 1.5vw 1vw 1.3vw rgba(11, 85, 189, 0.6) inset; 
 }
 
 #box_container a
