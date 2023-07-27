@@ -165,21 +165,24 @@ header li a:hover
 }
 #end
 {
-    /* background-color: rgb(23, 23, 175); */
     margin-top: 3%;
     display: flex;
-    gap: 10vw;
+    gap: 8vw;
     justify-content: center;
     align-items: center;
+}
+#form_container
+{
+    padding-top: 6%;
 }
 .form2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 0;
-    gap: 24px;
-    width: 327px;
-    height: 330px;
+    gap: 1vw;
+    width: 32vw;
+    height: 33vw;
   }
   .inp3 {
     box-sizing: border-box;
@@ -188,8 +191,8 @@ header li a:hover
     padding-left: 12px;
     resize: auto;
     overflow: auto;
-    width: 327px;
-    height: 114px;
+    width: 25vw;
+    height: 10vw;
     border-radius: 4px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -199,8 +202,8 @@ header li a:hover
     color: #091e42;
   }
   #email {
-    width: 327px;
-    height: 48px;
+    width: 25vw;
+    height: 4vw;
     box-sizing: border-box;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
@@ -215,8 +218,8 @@ header li a:hover
     color: #6b778c;
   }
   #name {
-    width: 327px;
-    height: 48px;
+    width: 25vw;
+    height: 4vw;
     box-sizing: border-box;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
@@ -236,8 +239,8 @@ header li a:hover
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 129px;
-    height: 48px;
+    width: 13vw;
+    height: 4vw;
     background: #122fbc;
     cursor: pointer;
     z-index: 0;
@@ -245,13 +248,14 @@ header li a:hover
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.6vw;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.003em;
     color: #fff;
     border: none;
     outline: none;
+    /* font-size: 2.3vw; */
   }
 
   .getIn:hover {
@@ -276,13 +280,20 @@ header li a:hover
   #location h1
   {
     margin: 2%;
-  }
-  #form_valid
-  {
+    font-size: 3.5vw;
+}
+#location iframe
+{
+    width: 35vw;
+    height: 30vw;
+}
+#form_valid
+{
     color: antiquewhite;
     padding: 2%;
-  }
+}
 #form_valid h1
 {
+    font-size: 3.5vw;
     margin: 2%;
 }
